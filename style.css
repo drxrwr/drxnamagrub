@@ -1,0 +1,42 @@
+body {
+  font-family: sans-serif;
+  padding: 20px;
+  background: #ffffff;
+  color: #000000;
+}
+
+textarea {
+  width: 100%;
+  padding: 10px;
+  font-size: 16px;
+  margin-bottom: 10px;
+  box-sizing: border-box;
+}
+
+.button-row {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 10px;
+}
+
+.button-row button {
+  flex: 1;
+  padding: 10px;
+  font-size: 16px;
+  background-color: #28a745;
+  color: white;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.button-row button:hover {
+  background-color: #218838;
+}
+
+pre {
+  background: #f0f0f0;
+  padding: 10px;
+  white-space: pre-wrap;
+  border-radius: 5px;
+}
